@@ -28,10 +28,10 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #fff;
+  color: rgb(172, 161, 161);
 }
 
-.filme_principal {
+.cartoon_principal {
   font-size: 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://i.ytimg.com/vi/bm-o7O0Y6MI/maxresdefault.jpg");
@@ -79,12 +79,23 @@ header nav a:hover {
   margin-left: 10px;
 }
 
-.filme_principal .container {
+.cartoon_principal .container {
   width: 70%;
 }
 
-.box_filme {
+.carrosel_cartoon {
+  margin-top: 5px;
+}
+
+.box_cartoon {
   height: 100%;
   width: 100%;
   display: block;
+  position: relative;
+}
+
+.box_cartoon:hover {
+  top: -4px;
+  box-shadow: 0 4px 4px #999;
+  transition: all 0.2s ease-in-out;
 }
